@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract Dappazon {
+contract CropTradingSystem {
     address public owner;
 
     struct Item {
@@ -12,6 +12,7 @@ contract Dappazon {
         uint256 cost;
         uint256 rating;
         uint256 stock;
+        string description;
     }
 
     struct Order {
@@ -44,7 +45,8 @@ contract Dappazon {
         string memory _image,
         uint256 _cost,
         uint256 _rating,
-        uint256 _stock
+        uint256 _stock,
+        string memory _description
     ) public onlyOwner {
         // Create Item
         Item memory item = Item(
@@ -54,7 +56,8 @@ contract Dappazon {
             _image,
             _cost,
             _rating,
-            _stock
+            _stock,
+            _description
         );
 
         // Add Item to mapping

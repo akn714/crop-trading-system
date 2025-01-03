@@ -15,20 +15,20 @@ async function main() {
   // Setup accounts
   const [deployer1, deployer] = await ethers.getSigners()
 
-  // Deploy Dappazon
-  const Dappazon = await hre.ethers.getContractFactory("Dappazon")
-  const dappazon = await Dappazon.deploy(deployer.address)
-  await dappazon.deployed()
+  // Deploy CropTradingSystem
+  const CropTradingSystem = await hre.ethers.getContractFactory("CropTradingSystem")
+  const cropTradingSystem = await CropTradingSystem.deploy(deployer.address)
+  await cropTradingSystem.deployed()
 
-  console.log(dappazon.address)
-  console.log(await dappazon.owner())
+  console.log(cropTradingSystem.address)
+  console.log(await cropTradingSystem.owner())
   console.log(deployer.address)
 
-  console.log(`Deployed Dappazon Contract at: ${dappazon.address}\n`)
+  console.log(`Deployed CropTradingSystem Contract at: ${cropTradingSystem.address}\n`)
 
   // Listing items...
   for (let i = 0; i < items.length; i++) {
-    const transaction = await dappazon.connect(deployer).list(
+    const transaction = await cropTradingSystem.connect(deployer).list(
       items[i].id,
       items[i].name,
       items[i].category,
@@ -36,11 +36,13 @@ async function main() {
       tokens(items[i].price),
       items[i].rating,
       items[i].stock,
+      items[i].description
     )
 
     await transaction.wait()
 
     console.log(`Listed item ${items[i].id}: ${items[i].name}`)
+    console.log(items[i].description)
   }
 }
 

@@ -142,43 +142,43 @@
     },
     {
       "id": 15,
-      "name": "Peas",
+      "name": "Matar Dal",
       "category": "Pulses",
-      "image": "https://www.organicfacts.net/wp-content/uploads/2020/07/Peas-1.jpg",
-      "price": "0.28",
-      "rating": 4,
-      "stock": 11,
-      "description": "Peas are rich in vitamins, minerals, and antioxidants. A common ingredient in soups, salads, and stews, they also serve as a great side dish. Versatile and easy to cook, peas are perfect for adding a healthy touch to any meal."
+      "image": "https://2.wlimg.com/product_images/bc-full/2022/10/10567165/desi-matar-dal-1665385279-6577044.jpeg",
+      "price": "0.15",
+      "rating": 3,
+      "stock": 12,
+      "description": "Matar Dal (Yellow Split Peas) is a versatile pulse widely used in Indian cuisine for making delicious dals, soups, and curries. High in protein and fiber, it provides a nutritious and satisfying addition to your meals."
     },
     {
       "id": 16,
-      "name": "Lima Beans",
-      "category": "Pulses",
-      "image": "https://www.urbanfarms.org/wp-content/uploads/2021/06/Lima-Beans.jpg",
-      "price": "0.38",
-      "rating": 4,
-      "stock": 13,
-      "description": "Lima beans are a creamy, nutrient-dense pulse that’s a great source of fiber, protein, and iron. Used in soups, salads, and casseroles, these beans can add both texture and nutrition to your meals."
+      "name": "Potato",
+      "category": "Vegetables",
+      "image": "https://4.imimg.com/data4/KM/KQ/ANDROID-46853165/product-500x500.jpeg",
+      "price": "0.15",
+      "rating": 3,
+      "stock": 12,
+      "description": "Potatoes are one of the most beloved and versatile vegetables, perfect for a wide variety of dishes, including fries, mashed potatoes, and curries. Packed with essential nutrients like potassium and vitamin C, they are a staple in many households."
     },
     {
       "id": 17,
-      "name": "Black-eyed Peas",
-      "category": "Pulses",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Black_Eyed_Peas_1.jpg",
-      "price": "0.29",
+      "name": "Onion",
+      "category": "Vegetables",
+      "image": "https://5.imimg.com/data5/ANDROID/Default/2021/3/GP/VO/XV/125443919/screenshot-20210320-183611-jpg-500x500.jpg",
+      "price": "0.15",
       "rating": 3,
-      "stock": 10,
-      "description": "Black-eyed peas are small, creamy beans that have a slightly sweet flavor. Popular in Southern and African cuisines, they are rich in protein, fiber, and iron. Perfect for stews, curries, and salads, they offer a hearty and nutritious addition to your diet."
+      "stock": 12,
+      "description": "Onions are a kitchen essential known for their aromatic flavor that enhances almost any dish. Whether for soups, salads, or curries, their rich taste and numerous health benefits make them a must-have for cooking."
     },
     {
       "id": 18,
-      "name": "Green Lentils",
-      "category": "Pulses",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Green_Lentils.jpg",
-      "price": "0.22",
+      "name": "Garlic",
+      "category": "Vegetables",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLDWodgwBpIvDh2RctIagebuTteixhSq0Cnw&s",
+      "price": "0.15",
       "rating": 3,
-      "stock": 17,
-      "description": "Green lentils are high in protein and fiber, making them an excellent choice for plant-based diets. They hold their shape well during cooking and are ideal for soups, stews, and salads. A nutritious and versatile addition to any meal."
+      "stock": 12,
+      "description": "Garlic is a highly flavorful and aromatic vegetable, renowned for its medicinal properties and use in various cuisines. From adding flavor to dishes to supporting immune health, garlic is an indispensable ingredient in every kitchen."
     }
   ]
 }

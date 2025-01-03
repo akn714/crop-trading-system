@@ -10,7 +10,7 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <div className='nav__brand'>
-                <h1>Dappazon</h1>
+                <h1>Crop Trading System</h1>
             </div>
 
             <input
