@@ -2,84 +2,183 @@
   "items": [
     {
       "id": 1,
-      "name": "Camera",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
-      "price": "1",
+      "name": "Paddy",
+      "category": "Grains",
+      "image": "https://5.imimg.com/data5/ED/SF/SD/SELLER-5050723/paddy-seeds-1000x1000.jpg",
+      "price": "1.50",
       "rating": 4,
-      "stock": 10
+      "stock": 10,
+      "description": "Paddy, the primary source of rice, is a versatile cereal crop grown worldwide. Known for its rich nutritional value, it's an essential ingredient in numerous cuisines. Whether you're preparing wholesome rice dishes or exploring global flavors, paddy is a staple in every kitchen."
     },
     {
       "id": 2,
-      "name": "Drone",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
-      "price": "2",
+      "name": "Wheat",
+      "category": "Grains",
+      "image": "https://3.imimg.com/data3/BH/LJ/MY-4207305/wheat-1000x1000.jpg",
+      "price": "2.30",
       "rating": 5,
-      "stock": 6
+      "stock": 6,
+      "description": "Wheat is a globally essential grain, forming the foundation for bread, pasta, and many baked goods. Packed with nutrients, it is a vital source of dietary fiber, offering a wholesome addition to any meal. Perfect for home bakers and chefs alike, wheat is a must-have pantry item."
     },
     {
       "id": 3,
-      "name": "Headset",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
-      "price": "0.25",
+      "name": "Corn",
+      "category": "Grains",
+      "image": "https://www.hmicronpowder.com/wp-content/uploads/2020/10/Corn-3-2-scaled.jpg",
+      "price": "0.35",
       "rating": 2,
-      "stock": 24
+      "stock": 24,
+      "description": "Corn is a versatile grain used in various food products, animal feed, and biofuel. With its sweet, natural taste, it's perfect for snacks, salads, or hearty meals. Whether you're making cornmeal or just enjoying it on the cob, corn is a true pantry essential."
     },
     {
       "id": 4,
-      "name": "Shoes",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
-      "price": "0.25",
+      "name": "Rice",
+      "category": "Grains",
+      "image": "https://cdn.britannica.com/17/176517-050-6F2B774A/Pile-uncooked-rice-grains-Oryza-sativa.jpg",
+      "price": "0.80",
       "rating": 5,
-      "stock": 3
+      "stock": 3,
+      "description": "Rice, a global culinary staple, is available in various forms, including Basmati, Jasmine, and sticky rice. With its mild flavor and versatile use in sweet and savory dishes alike, rice is perfect for everything from family dinners to gourmet meals."
     },
     {
       "id": 5,
-      "name": "Sunglasses",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
-      "price": "0.10",
+      "name": "Oats",
+      "category": "Grains",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6S5P4-lcyLz5ob7yZ_-weFprIfw8Fw9Px7SiRR5GLlBsjGFCepImE2uvT-sumHHzbsqU&usqp=CAU",
+      "price": "0.12",
       "rating": 4,
-      "stock": 12
+      "stock": 12,
+      "description": "Oats are a highly nutritious grain known for their exceptional fiber content. A breakfast favorite, they are perfect for porridge, granola, and baked goods. A healthy and wholesome choice to start your day on the right foot."
     },
     {
       "id": 6,
-      "name": "Watch",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
-      "price": "1.25",
+      "name": "Millet",
+      "category": "Grains",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIhfZbn6WBkBMHRTrFUWF5zP1DT97WyXCiw&s",
+      "price": "1.75",
       "rating": 4,
-      "stock": 0
+      "stock": 8,
+      "description": "Millet is a highly nutritious, gluten-free grain with a mild, nutty flavor. Ideal for porridge, salads, or flatbreads, it's packed with protein, fiber, and essential vitamins. A great addition to a balanced diet, millet is a versatile choice for health-conscious cooks."
     },
     {
       "id": 7,
-      "name": "Puzzle Cube",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
-      "price": "0.05",
+      "name": "Barley",
+      "category": "Grains",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpAoty-4mCjQ_mOoNz6gnGHwZwneAPFLKntQ&s",
+      "price": "0.06",
       "rating": 4,
-      "stock": 15
+      "stock": 15,
+      "description": "Barley is an incredibly versatile grain, great for soups, stews, and bread. Rich in fiber, it supports digestive health and heart health. A timeless pantry staple, barley is perfect for anyone looking to add hearty grains to their meals."
     },
     {
       "id": 8,
-      "name": "Train Set",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
-      "price": "0.20",
+      "name": "Chana (Chickpeas)",
+      "category": "Pulses",
+      "image": "https://5.imimg.com/data5/QQ/AU/MY-17256771/gram-1000x1000.jpg",
+      "price": "0.25",
       "rating": 4,
-      "stock": 0
+      "stock": 9,
+      "description": "Chana, or chickpeas, are a protein-packed pulse used in many global cuisines. From curries to hummus, these beans are rich in fiber and essential nutrients. A great source of plant-based protein, they are perfect for vegetarian and vegan dishes."
     },
     {
       "id": 9,
-      "name": "Robot Set",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
-      "price": "0.15",
+      "name": "Masoor Dal (Red Lentils)",
+      "category": "Pulses",
+      "image": "https://5.imimg.com/data5/HH/SA/MY-8481118/red-lentils-whole-500x500.jpg",
+      "price": "0.18",
       "rating": 3,
-      "stock": 12
+      "stock": 12,
+      "description": "Masoor Dal, or red lentils, are easy to cook and packed with protein and iron. Popular in soups, stews, and curries, these lentils are a staple in South Asian cuisine. Quick to prepare and highly nutritious, they are perfect for busy weeknights."
+    },
+    {
+      "id": 10,
+      "name": "Toor Dal (Pigeon Peas)",
+      "category": "Pulses",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjr9qJJmudTRYnH6FHvbJeHVwVnQbSP7fZrQ&s",
+      "price": "0.20",
+      "rating": 3,
+      "stock": 10,
+      "description": "Toor Dal, or pigeon peas, are a rich source of protein and fiber, commonly used in Indian dals and soups. Known for their mild flavor and smooth texture, they are easy to cook and make a hearty addition to any dish."
+    },
+    {
+      "id": 11,
+      "name": "Urad Dal (Black Gram)",
+      "category": "Pulses",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5qfqcj_dHOh7kjoAuA9VWscb-uMLckkapQ&s",
+      "price": "0.22",
+      "rating": 3,
+      "stock": 18,
+      "description": "Urad Dal, or black gram, is used extensively in Indian cooking. Known for its earthy flavor and creamy texture when cooked, it’s perfect for making dals, soups, and even fermented dishes like dosa and idli."
+    },
+    {
+      "id": 12,
+      "name": "Moong Dal (Green Gram)",
+      "category": "Pulses",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/412651155/XF/NS/XK/160562562/green-moong-dal.jpeg",
+      "price": "0.16",
+      "rating": 3,
+      "stock": 14,
+      "description": "Moong Dal is a mild, versatile pulse that’s packed with protein and nutrients. It’s easy to digest and commonly used in soups, curries, and salads. Whether you’re making a comforting dal or adding protein to your dishes, moong dal is an essential pantry item."
+    },
+    {
+      "id": 13,
+      "name": "Rajma (Kidney Beans)",
+      "category": "Pulses",
+      "image": "https://jivabhumi.com/cdn/shop/products/Red-kidney-beans-2_2fb9a06c-a0e6-406b-85d3-b1b4966a5748.jpg?v=1670225350&width=600",
+      "price": "0.30",
+      "rating": 3,
+      "stock": 8,
+      "description": "Rajma, or kidney beans, are a popular legume, especially in North Indian cuisine. Known for their hearty texture and rich flavor, they are perfect for making rich curries, stews, and salads. A great source of plant-based protein and fiber."
+    },
+    {
+      "id": 14,
+      "name": "Soybean",
+      "category": "Pulses",
+      "image": "https://www.agrifarming.in/wp-content/uploads/2019/10/Soybean-Plant.jpg",
+      "price": "0.45",
+      "rating": 4,
+      "stock": 16,
+      "description": "Soybeans are rich in protein, making them a valuable crop for both humans and livestock. Commonly used to make tofu, soy milk, and a variety of vegetarian dishes, soybeans are an essential source of plant-based protein. A great addition to your pantry for health-conscious eaters."
+    },
+    {
+      "id": 15,
+      "name": "Peas",
+      "category": "Pulses",
+      "image": "https://www.organicfacts.net/wp-content/uploads/2020/07/Peas-1.jpg",
+      "price": "0.28",
+      "rating": 4,
+      "stock": 11,
+      "description": "Peas are rich in vitamins, minerals, and antioxidants. A common ingredient in soups, salads, and stews, they also serve as a great side dish. Versatile and easy to cook, peas are perfect for adding a healthy touch to any meal."
+    },
+    {
+      "id": 16,
+      "name": "Lima Beans",
+      "category": "Pulses",
+      "image": "https://www.urbanfarms.org/wp-content/uploads/2021/06/Lima-Beans.jpg",
+      "price": "0.38",
+      "rating": 4,
+      "stock": 13,
+      "description": "Lima beans are a creamy, nutrient-dense pulse that’s a great source of fiber, protein, and iron. Used in soups, salads, and casseroles, these beans can add both texture and nutrition to your meals."
+    },
+    {
+      "id": 17,
+      "name": "Black-eyed Peas",
+      "category": "Pulses",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Black_Eyed_Peas_1.jpg",
+      "price": "0.29",
+      "rating": 3,
+      "stock": 10,
+      "description": "Black-eyed peas are small, creamy beans that have a slightly sweet flavor. Popular in Southern and African cuisines, they are rich in protein, fiber, and iron. Perfect for stews, curries, and salads, they offer a hearty and nutritious addition to your diet."
+    },
+    {
+      "id": 18,
+      "name": "Green Lentils",
+      "category": "Pulses",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Green_Lentils.jpg",
+      "price": "0.22",
+      "rating": 3,
+      "stock": 17,
+      "description": "Green lentils are high in protein and fiber, making them an excellent choice for plant-based diets. They hold their shape well during cooking and are ideal for soups, stews, and salads. A nutritious and versatile addition to any meal."
     }
   ]
 }

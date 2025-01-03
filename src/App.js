@@ -18,9 +18,9 @@ function App() {
 
   const [account, setAccount] = useState(null)
 
-  const [electronics, setElectronics] = useState(null)
-  const [clothing, setClothing] = useState(null)
-  const [toys, setToys] = useState(null)
+  const [grains, setGrains] = useState(null)
+  const [pulses, setPulses] = useState(null)
+  const [vegetables, setVegetables] = useState(null)
 
   const [item, setItem] = useState({})
   const [toggle, setToggle] = useState(false)
@@ -40,18 +40,22 @@ function App() {
 
     const items = []
 
-    for (var i = 0; i < 9; i++) {
+    for (var i = 0; i < 18; i++) {
       const item = await dappazon.items(i + 1)
       items.push(item)
     }
 
-    const electronics = items.filter((item) => item.category === 'electronics')
-    const clothing = items.filter((item) => item.category === 'clothing')
-    const toys = items.filter((item) => item.category === 'toys')
+    const grains = items.filter((item) => item.category === 'Grains')
+    const pulses = items.filter((item) => item.category === 'Pulses')
+    const vegetables = items.filter((item) => item.category === 'Vegetables')
 
-    setElectronics(electronics)
-    setClothing(clothing)
-    setToys(toys)
+    console.log(grains)
+    // console.log(pulses)
+    // console.log(vegetables)
+
+    setGrains(grains)
+    setPulses(pulses)
+    setVegetables(vegetables)
   }
 
   useEffect(() => {
@@ -64,11 +68,11 @@ function App() {
 
       <h2>Dappazon Best Sellers</h2>
 
-      {electronics && clothing && toys && (
+      {grains && pulses && vegetables && (
         <>
-          <Section title={"Clothing & Jewelry"} items={clothing} togglePop={togglePop} />
-          <Section title={"Electronics & Gadgets"} items={electronics} togglePop={togglePop} />
-          <Section title={"Toys & Gaming"} items={toys} togglePop={togglePop} />
+          <Section title={"Grains"} items={grains} togglePop={togglePop} />
+          <Section title={"Pulses"} items={pulses} togglePop={togglePop} />
+          <Section title={"Vegetables"} items={vegetables} togglePop={togglePop} />
         </>
       )}
 

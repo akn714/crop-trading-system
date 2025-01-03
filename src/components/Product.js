@@ -62,9 +62,9 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
           <p>
             {item.description}
 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem, iusto,
+            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem, iusto,
             consectetur inventore quod soluta quos qui assumenda aperiam, eveniet doloribus
-            commodi error modi eaque! Iure repudiandae temporibus ex? Optio!
+            commodi error modi eaque! Iure repudiandae temporibus ex? Optio! */}
           </p>
         </div>
 
