@@ -1,4 +1,4 @@
-# Dappazon
+# Crop Trading System
 
 ## Technology Stack & Tools
 
